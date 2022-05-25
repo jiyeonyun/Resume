@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <PersonalInfo personalInfoData={personalInfoData} />
+      <Educational />
     </div>
   );
 }
