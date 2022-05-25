@@ -2,23 +2,16 @@ import React from "react";
 
 const PersonalInfo = ({ personalInfoData }) => {
   return (
-    <table border="1" width="500">
-      <tr>
-        <td rowspan="5" width="85" height="113">
-          <img src="" alt="" />
-        </td>
-        <th colspan="9" height="50">
-          <font size="5">이 력 서</font>
-        </th>
-      </tr>
+    <table>
       <tr>
         <th rowspan="3" width="85" height="70" bgcolor="D5D5D5">
-          성 명
+          {" "}
+          성명
         </th>
       </tr>
       <tr>
         <th colspan="2" bgcolor="D5D5D5">
-          한 글
+          한글
         </th>
         <td width="90"></td>
         <th bgcolor="D5D5D5">생 년 월 일</th>
@@ -26,9 +19,10 @@ const PersonalInfo = ({ personalInfoData }) => {
           E-mail
         </th>
       </tr>
+
       <tr>
         <th colspan="2" bgcolor="D5D5D5">
-          한 문
+          한문
         </th>
         <td></td>
         <td></td>
@@ -36,16 +30,16 @@ const PersonalInfo = ({ personalInfoData }) => {
       </tr>
       <tr>
         <th colspan="2" width="50" bgcolor="D5D5D5">
-          연 락 처
+          연락처
         </th>
         <td colspan="2"></td>
         <th colspan="2" width="50" bgcolor="D5D5D5">
-          나이
+          긴급 연락처(핸드폰)
         </th>
-        <td colspan="2">만 세</td>
+        <td colspan="2"></td>
       </tr>
       <tr>
-        <th bgcolor="D5D5D5">주 소</th>
+        <th bgcolor="D5D5D5">현주소</th>
         <td colspan="8"></td>
       </tr>
     </table>

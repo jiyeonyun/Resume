@@ -10,13 +10,8 @@ function App() {
     adress: "서울특별시 영등포구",
     email: "jyyun@zentropy.com",
     number: "010-2055-7663",
-    age: 24,
   });
-  return (
-    <div className="App">
-      <PersonalInfo />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;

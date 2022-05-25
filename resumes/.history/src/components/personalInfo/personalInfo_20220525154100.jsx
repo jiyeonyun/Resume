@@ -4,7 +4,7 @@ const PersonalInfo = ({ personalInfoData }) => {
   return (
     <table border="1" width="500">
       <tr>
-        <td rowspan="5" width="85" height="113">
+        <td rowspan="" width="65" height="80">
           <img src="" alt="" />
         </td>
         <th colspan="9" height="50">
@@ -28,6 +28,7 @@ const PersonalInfo = ({ personalInfoData }) => {
       </tr>
       <tr>
         <th colspan="2" bgcolor="D5D5D5">
+          {" "}
           한 문
         </th>
         <td></td>
@@ -40,12 +41,12 @@ const PersonalInfo = ({ personalInfoData }) => {
         </th>
         <td colspan="2"></td>
         <th colspan="2" width="50" bgcolor="D5D5D5">
-          나이
+          긴급 연락처(핸드폰)
         </th>
-        <td colspan="2">만 세</td>
+        <td colspan="2"></td>
       </tr>
       <tr>
-        <th bgcolor="D5D5D5">주 소</th>
+        <th bgcolor="D5D5D5">현 주 소</th>
         <td colspan="8"></td>
       </tr>
     </table>

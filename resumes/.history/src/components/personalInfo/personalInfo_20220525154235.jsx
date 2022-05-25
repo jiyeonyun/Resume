@@ -45,7 +45,7 @@ const PersonalInfo = ({ personalInfoData }) => {
         <td colspan="2">만 세</td>
       </tr>
       <tr>
-        <th bgcolor="D5D5D5">주 소</th>
+        <th bgcolor="D5D5D5">현 주 소</th>
         <td colspan="8"></td>
       </tr>
     </table>
