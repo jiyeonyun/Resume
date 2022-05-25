@@ -1,9 +1,10 @@
 import React from "react";
 import edudata from "../../data/edudata";
+import styles from "./educational.module.css";
 const Educational = (props) => {
   console.log(edudata);
   return (
-    <table>
+    <table className={styles.table}>
       <tr>
         <th colSpan="4" width="790" bgcolor="D5D5D5">
           학 력 사 항

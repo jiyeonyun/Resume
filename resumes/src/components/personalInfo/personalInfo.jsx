@@ -1,8 +1,8 @@
 import React from "react";
-
+import styles from "./personalInfo.module.css";
 const PersonalInfo = ({ personalInfoData }) => {
   return (
-    <table>
+    <table className={styles.table}>
       <tr>
         <td
           rowSpan="5"
