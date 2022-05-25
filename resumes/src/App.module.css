@@ -6,6 +6,9 @@ th,
 td {
   border: 0.5px solid #b4b4b4;
   text-align: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 table {
   width: 80%;

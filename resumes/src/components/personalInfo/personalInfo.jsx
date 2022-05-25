@@ -4,9 +4,12 @@ const PersonalInfo = ({ personalInfoData }) => {
   return (
     <table>
       <tr>
-        <td rowSpan="5" width="85" height="80">
-          <img src="" alt="" />
-        </td>
+        <td
+          rowSpan="5"
+          width="85"
+          height="80"
+          style={{ backgroundImage: "url('./images/photo.jpg')" }}
+        ></td>
         <th colSpan="9" height="30">
           <font size="5">이 력 서</font>
         </th>
