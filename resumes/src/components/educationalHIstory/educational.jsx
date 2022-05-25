@@ -21,7 +21,7 @@ const Educational = (props) => {
           <tr key={i}>
             <td>{data.date}</td>
             <td align="center">{data.content}</td>
-            <td>{data.grade}</td>
+            <td>{data.grade !== "" ? data.grade : "/"}</td>
             <td>{data.gradu ? "졸업" : "재학중"}</td>
           </tr>
         );
