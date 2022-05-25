@@ -4,7 +4,6 @@ import Career from "./components/career/career";
 import Educational from "./components/educationalHIstory/educational";
 import Footer from "./components/footer/footer";
 import PersonalInfo from "./components/personalInfo/personalInfo";
-import Qulitication from "./components/qualitication/qulitication";
 function App() {
   const [personalInfoData, setPersonalInfoData] = useState({
     name: "홍길동",
@@ -20,7 +19,6 @@ function App() {
       <PersonalInfo personalInfoData={personalInfoData} />
       <Educational />
       <Career />
-      <Qulitication />
       <Footer personalInfoData={personalInfoData} />
     </div>
   );
