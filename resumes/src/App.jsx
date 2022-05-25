@@ -15,7 +15,7 @@ function App() {
     age: 24,
   });
   return (
-    <div className="App">
+    <div className={styles.App}>
       <PersonalInfo personalInfoData={personalInfoData} />
       <Educational />
       <Career />
