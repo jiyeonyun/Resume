@@ -2,7 +2,6 @@ import React from "react";
 import edudata from "../../data/edudata";
 import styles from "./educational.module.css";
 const Educational = (props) => {
-  console.log(edudata);
   return (
     <table className={styles.table}>
       <tr>
