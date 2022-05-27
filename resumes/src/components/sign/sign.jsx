@@ -47,14 +47,6 @@ const Sign = (props) => {
     }
   };
 
-  //   const handleSaveClick = () => {
-  //     const image = canvas.toDataURL();
-  //     const link = document.createElement("a");
-  //     link.href = image;
-  //     link.download = "PaintJS[🎨]";
-  //     link.click();
-  //   };
-
   return (
     <div>
       <div className={styles.canvasWrap}>
@@ -67,7 +59,6 @@ const Sign = (props) => {
         ></canvas>
       </div>
       <button onClick={handleReset}>clear</button>
-      {/* <button onClick={handleSaveClick}>save</button> */}
     </div>
   );
 };
