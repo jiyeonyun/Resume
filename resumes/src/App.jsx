@@ -4,6 +4,7 @@ import Career from "./components/career/career";
 import Educational from "./components/educationalHIstory/educational";
 import Footer from "./components/footer/footer";
 import PersonalInfo from "./components/personalInfo/personalInfo";
+import Sign from "./components/sign/sign";
 function App() {
   const [personalInfoData, setPersonalInfoData] = useState({
     name: "홍길동",
@@ -16,10 +17,11 @@ function App() {
   });
   return (
     <div className={styles.App}>
-      <PersonalInfo personalInfoData={personalInfoData} />
+      {/* <PersonalInfo personalInfoData={personalInfoData} />
       <Educational />
       <Career />
-      <Footer personalInfoData={personalInfoData} />
+      <Footer personalInfoData={personalInfoData} /> */}
+      <Sign />
     </div>
   );
 }
